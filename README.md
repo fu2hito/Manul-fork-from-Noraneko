@@ -1,4 +1,4 @@
-# Manul(42key GRIN keyboard based on Noraneko42GR by Daraku-Neko)
+# Manul(Low profile GRIN layout keyboard based on Noraneko42GR)
 
 ## 概要
 
