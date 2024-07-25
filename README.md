@@ -8,8 +8,6 @@ Manulは[Coffee License](LICENCE_JA.original)にしたがって作成してい�
 
 このREADMEはNoraneko42GRとManulで書きました。
 
-## 
-
 ## バージョン
 
 ### v1.0
@@ -32,4 +30,4 @@ Manulは[Coffee License](LICENCE_JA.original)にしたがって作成してい�
 ## ライセンス
 
 * MIT License
-  * [LICENSE](LICENSE)
+  * [LICENSE](./LICENSE)
