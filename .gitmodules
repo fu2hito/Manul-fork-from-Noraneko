@@ -1,0 +1,3 @@
+[submodule "kicad/footprint/submodule"]
+	path = kicad/footprint/submodule
+	url = https://github.com/fu2hito/KiCAD_FootPrint.git
