@@ -6,7 +6,7 @@ Manul（Noraneko42GR choc v2）は、[@darakuneko](https://github.com/darakuneko
 
 Manulは[Coffee License](LICENCE_JA.original)にしたがって作成しています。
 
-このREADMEはNoraneko42GRとManulで書きました。
+このREADMEはNoraneko42GRとManul v1.0, 2.0で書きました。
 
 ## バージョン
 
@@ -30,6 +30,49 @@ Manulは[Coffee License](LICENCE_JA.original)にしたがって作成してい�
 * Plateの設計変更
   * ネジ穴の追加
   * 切り抜きの変更
+
+## Acknowledgement
+
+Manulは直接的には以下の方々のおかげで作成されました。ありがとうございます。
+
+### Noraneko42GR
+
+Manulは[@darakuneko](https://github.com/darakuneko)さんの[Noraneko42gr v1.2](https://github.com/darakuneko/Noraneko/tree/main/noraneko42gr/v1.2)をベースに作成されました。
+
+Noranekoキーボードシリーズは、[Coffee License](https://github.com/darakuneko/Noraneko/blob/main/LICENSE_JA)です。
+
+KiCADファイルやFirmware、プレートファイルは、Noraneko42GRのものを使用しています。
+
+### Choc v2スイッチのフットプリント
+
+Choc v2スイッチのフットプリントは、[サリチル酸](https://github.com/Salicylic-acid3)さんの[KiCAD_FootPrint](https://github.com/Salicylic-acid3/KiCAD_FootPrint)を[フォークしたもの](https://github.com/fu2hito/KiCAD_FootPrint)を使用しました。1.5u等のフットプリントを追加しています。
+
+KiCAD_FootPrintは、[MIT License](https://github.com/Salicylic-acid3/KiCAD_FootPrint/blob/master/Licence.txt)です。
+
+その他[サリチル酸](https://x.com/Salicylic_acid3)さんにはdiscordや書籍などでお世話になっております。
+
+### GPK FWBuilder
+
+Firmwareのビルドは再び[@darakuneko](https://github.com/darakuneko)さんの[GPK FWBuilder](https://github.com/darakuneko/gpk_fwbuilder)を使用しています。
+これなしでは私の自キ活は成り立ちません。
+
+Intel Macだと10.1以降動かなくなっているので、Macの更新に迫られています。
+
+### シリアルLEDについて
+
+[monksoffunkJP](https://x.com/monksoffunkJP)さんの[記事](https://25keys.com/2022/05/28/rp2040_sk6812mini/)の下記引用部分を参考に配線しました。きれいに光っております。アドバイスなどあればIssueにてお願いします。
+
+```
+もうひとつ解決法があります。しかも面倒なパーツは一切要らない方法です。
+それは、WS2812B V5とSK6812mini(-e)を併用するというものです。WS2812Bは3.3VのDINを受けてもDOUTは5Vレベルですので、先にWS2812Bをアンダーグロウとして使い、そのあとにSK6812mini-eをバックライトとして使えば仕様上は動作すると思います。あるいはWS2812Bをレベル変換のために1個だけ載せるという手もあるかもしれませんね。どちらも試したことはないので動かなかったらごめんなさい。
+```
+
+### スイッチ裏のRP2040 Zeroの配置について
+
+スイッチのLEDまどを下向きにしたため、RP2040 Zeroのフットプリントはスイッチに干渉します。そのため、使用しないピンのパッドを削除しました。
+
+この配線しないピンのパッドを削除するアイデアは、参考URLを失念しております。申し訳ございません。
+たしかTwitterかdiscordで見たものだったかと思います。ありがとうございます。
 
 ## ライセンス
 
