@@ -1,5 +1,7 @@
 # Manul
 
+![Manul v2 image](https://github.com/user-attachments/assets/2e5e5e20-1b11-458e-8fc0-289e18aa9af1)
+
 ManulはNoraneko42GRをベースにした42キーのGRINレイアウトキーボードです。Lofree Ghostスイッチの利用を前提としたChoc v2ソケット対応です。
 
 ## パーツ
